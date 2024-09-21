@@ -1,0 +1,47 @@
+<nav class="bg-gray-800 p-4 w-full sticky top-0 z-10">
+  <div class="container mx-auto flex justify-end space-x-5">
+    <a (click)="scrollTo('home')" class="text-white py-5 flex items-center cursor-pointer">
+      <i class="fas fa-home mr-2"></i> Home
+    </a>
+    <a (click)="scrollTo('about')" class="text-white py-5 flex items-center cursor-pointer">
+      <i class="fas fa-user mr-2"></i> About
+    </a>
+    <a (click)="scrollTo('projects')" class="text-white py-5 flex items-center cursor-pointer">
+      <i class="fas fa-project-diagram mr-2"></i> Projects
+    </a>
+    <a (click)="scrollTo('education')" class="text-white py-5 flex items-center cursor-pointer">
+      <i class="fas fa-graduation-cap mr-2"></i> Education
+    </a>
+    <a (click)="scrollTo('skills')" class="text-white py-5 flex items-center cursor-pointer">
+      <i class="fas fa-cogs mr-2"></i> Skills
+    </a>
+    <a (click)="scrollTo('experience')" class="text-white py-5 flex items-center cursor-pointer">
+      <i class="fas fa-briefcase mr-2"></i> Experience
+    </a>
+    <a (click)="scrollTo('contact')" class="text-white py-5 flex items-center cursor-pointer">
+      <i class="fas fa-envelope mr-2"></i> Contact
+    </a>
+  </div>
+</nav>
+
+<div id="home" class="min-h-screen pt-20 overflow-hidden">
+  <app-home></app-home>
+</div>
+<div id="about" class="min-h-screen pt-20 overflow-hidden">
+  <app-about></app-about>
+</div>
+<div id="projects" class="min-h-screen pt-20 overflow-hidden">
+  <app-projects></app-projects>
+</div>
+<div id="education" class="min-h-screen pt-20 overflow-hidden">
+  <app-education></app-education>
+</div>
+<div id="skills" class="min-h-screen pt-20 overflow-hidden">
+  <app-skills></app-skills>
+</div>
+<div id="experience" class="min-h-screen pt-20 overflow-hidden">
+  <app-experience></app-experience>
+</div>
+<div id="contact" class="min-h-screen pt-20 overflow-hidden">
+  <app-contact></app-contact>
+</div>

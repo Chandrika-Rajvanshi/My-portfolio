@@ -1,0 +1,26 @@
+body {
+  background-color: #ffffff; /* Ensure overall background is white */
+}
+
+.experience-box {
+  background-color: #f7fafc; /* Light gray color for the boxes */
+  padding: 16px; /* Padding inside the boxes */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.experience-box:hover {
+  transform: scale(1.02); /* Slightly enlarge the box on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.experience-box h3 {
+  margin: 0; /* Remove default margin */
+  color: #4a5568; /* Default color for headings */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.experience-box h3:hover {
+  color: #2d3748; /* Darker color on hover */
+}

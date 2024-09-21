@@ -1,0 +1,23 @@
+.education-card {
+  background-color: #f7fafc; /* Set to white for consistency with project boxes */
+  padding: 16px; /* Adjust as needed */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.education-card:hover {
+  transform: translateY(-5px); /* Match the hover effect of project boxes */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.education-card h3 {
+  margin: 0;
+}
+
+.education-card ul,
+.education-card p {
+  margin: 0;
+  padding: 0;
+}

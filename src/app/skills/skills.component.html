@@ -1,0 +1,36 @@
+<section id="skills" class="py-16 bg-white">
+  <h2 class="text-3xl font-bold text-gray-800 text-center">SKILLS</h2>
+  <div class="mt-8 max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+    <div class="bg-lightgray-100 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105 cursor-pointer text-center" (click)="toggleSkill(1)">
+      <h3 class="text-xl font-semibold text-gray-700">Languages</h3>
+      <p class="text-gray-600 mt-2" *ngIf="expandedSkill === 1">C++, Python, R, HQL, HTML, CSS</p>
+    </div>
+
+    <div class="bg-lightgray-100 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105 cursor-pointer text-center" (click)="toggleSkill(2)">
+      <h3 class="text-xl font-semibold text-gray-700">Databases</h3>
+      <p class="text-gray-600 mt-2" *ngIf="expandedSkill === 2">MySQL, MongoDB, Redis</p>
+    </div>
+
+    <div class="bg-lightgray-100 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105 cursor-pointer text-center" (click)="toggleSkill(3)">
+      <h3 class="text-xl font-semibold text-gray-700">Developer Tools</h3>
+      <p class="text-gray-600 mt-2" *ngIf="expandedSkill === 3">
+        MS Excel, Power BI, Tableau, VS Code, GitHub, Jupyter Notebook, Hadoop, Linux
+      </p>
+    </div>
+
+    <div class="bg-lightgray-100 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105 cursor-pointer text-center" (click)="toggleSkill(4)">
+      <h3 class="text-xl font-semibold text-gray-700">Coursework</h3>
+      <p class="text-gray-600 mt-2" *ngIf="expandedSkill === 4">
+        Object Oriented Programming, Operating Systems, Computer Networks, Database Management System
+      </p>
+    </div>
+
+    <div class="bg-lightgray-100 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105 cursor-pointer col-span-1 sm:col-span-2 text-center" (click)="toggleSkill(5)">
+      <h3 class="text-xl font-semibold text-gray-700">Soft Skills</h3>
+      <p class="text-gray-600 mt-2" *ngIf="expandedSkill === 5">
+        Analytical thinking, Project Management, Interpersonal communication, Teamwork and leadership
+      </p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,27 @@
+/* About Section Styling */
+#about {
+  background-color: #ffffff; /* Light gray background */
+}
+
+#about h2 {
+  color: black; /* Darker text color for the heading */
+  margin-bottom: 1rem; /* Space below the heading */
+}
+
+#about .bg-white {
+  background-color:#f7fafc; /* White background for the box */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 0.5rem; /* Rounded corners */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+#about .bg-white:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+}
+
+#about p {
+  color: #718096; /* Gray text color for better readability */
+  line-height: 1.6; /* Improve line spacing */
+  text-align: justify; /* Justify text */
+}

@@ -1,0 +1,32 @@
+/* Change project-box to have a white background */
+.project-box {
+  background-color: #f7fafc; /* Change to white */
+  padding: 16px; /* Adjust as needed */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+/* Keep the hover effect the same */
+.project-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Change the section background to light gray */
+section {
+  background-color: white; /* Change to light gray */
+  padding: 2rem; /* Ensure padding for all sections */
+}
+
+/* Maintain consistent styles for headings and lists */
+.project-box h3 {
+  margin: 0;
+}
+
+.project-box ul,
+.project-box p {
+  margin: 0;
+  padding: 0;
+}

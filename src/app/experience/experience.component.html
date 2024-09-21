@@ -1,0 +1,29 @@
+<section id="experience" class="py-16 bg-white">
+  <h2 class="text-3xl font-bold text-gray-800 text-center">PROFESSIONAL EXPERIENCE</h2>
+
+  <div class="mt-8 max-w-4xl mx-auto experience-box">
+    <h3 (click)="toggleDetails('biz2x')" class="cursor-pointer text-xl font-semibold text-gray-700">
+      Associate Software Engineer, Biz2X
+    </h3>
+    <p class="text-gray-600 mb-2" *ngIf="expandedSection === 'biz2x'">08/2024 - Present</p>
+    <ul *ngIf="expandedSection === 'biz2x'" class="list-disc list-inside text-gray-600">
+      <li>Engaged in interactive meetings with diverse stakeholders to gain a comprehensive understanding of the company's business model and strategic goals.</li>
+      <li>Actively learning and mastering the technology stack utilized by the company, including MEAN stack (MongoDB, Express.js, AngularJS, and Node.js).</li>
+      <li>Contributed to the development of web applications, applying best practices in software engineering to enhance functionality and user experience.</li>
+      <li>Participated in team discussions to understand project requirements and contribute to feature design, laying the groundwork for future development efforts.</li>
+    </ul>
+  </div>
+
+  <div class="mt-8 max-w-4xl mx-auto experience-box">
+    <h3 (click)="toggleDetails('spGlobal')" class="cursor-pointer text-xl font-semibold text-gray-700">
+      Tech Intern, S&P Global Market Intelligence
+    </h3>
+    <p class="text-gray-600 mb-2" *ngIf="expandedSection === 'spGlobal'">05/2023 - 08/2023</p>
+    <ul *ngIf="expandedSection === 'spGlobal'" class="list-disc list-inside text-gray-600">
+      <li>Devised and executed calculation rules, resulting in a significant <strong>30% improvement</strong> in data accuracy for the Data Transformation Department.</li>
+      <li>Utilized Foreseer AI to automate the extraction and analysis of unstructured data from PDF and HTML formats, leading to a <strong>40% reduction</strong> in processing time.</li>
+      <li>Conducted comprehensive error checks to ensure the integrity of data transformations, enhancing the overall efficiency and reliability of the department's operations.</li>
+      <li>Facilitated collaboration with cross-functional teams to streamline data workflows, which contributed to a <strong>25% increase</strong> in project delivery speed.</li>
+    </ul>
+  </div>
+</section>

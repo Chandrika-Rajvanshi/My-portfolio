@@ -1,0 +1,65 @@
+<section id="projects" class="py-5 bg-gray-100">
+  <h2 class="text-3xl font-bold text-gray-800 text-center">PROJECTS</h2>
+
+  <div class="mt-8 max-w-4xl mx-auto">
+    <!-- Project 1 -->
+    <div class="project-box mb-6" (click)="toggleProject(1)">
+      <h3 class="text-xl font-semibold text-gray-700 border-b-2 border-gray-300 pb-2">
+        Image Captioning Bot, Automated Image Narration
+      </h3>
+      <p class="text-gray-600 mb-2">08/2023 — 05/2024</p>
+      <ul class="list-disc list-inside text-gray-600" *ngIf="expandedProject === 1">
+        <li>Built a bot using deep learning models like ResNet-50, Inception-v3, and VGG-16, achieving remarkable BLEU scores.</li>
+        <li>Applied rigorous data preprocessing and feature extraction techniques to enhance model performance and accuracy.</li>
+      </ul>
+      <p class="mt-2 text-gray-500" *ngIf="expandedProject === 1">
+        <strong>Tech stack:</strong> Python, TensorFlow, HTML, CSS, Flask, PostgreSQL
+      </p>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-box mb-6" (click)="toggleProject(2)">
+      <h3 class="text-xl font-semibold text-gray-700 border-b-2 border-gray-300 pb-2">
+        Mr. Trash Wheel, Waste Classifier
+      </h3>
+      <p class="text-gray-600 mb-2">01/2023 - 05/2023</p>
+      <ul class="list-disc list-inside text-gray-600" *ngIf="expandedProject === 2">
+        <li>Created an intuitive waste classification web application that employs CNN models to classify waste items into 6 categories.</li>
+        <li>Streamlined waste management processes and promoted waste sorting practices and efficient waste management strategies.</li>
+      </ul>
+      <p class="mt-2 text-gray-500" *ngIf="expandedProject === 2">
+        <strong>Tech stack:</strong> HTML, CSS, Python, CNN, TensorFlow, Flask
+      </p>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-box mb-6" (click)="toggleProject(3)">
+      <h3 class="text-xl font-semibold text-gray-700 border-b-2 border-gray-300 pb-2">
+        Healthcare Analytics, For Predicting LOS
+      </h3>
+      <p class="text-gray-600 mb-2">01/2023 - 02/2023</p>
+      <ul class="list-disc list-inside text-gray-600" *ngIf="expandedProject === 3">
+        <li>Utilized models to accurately forecast the Length of Stay for patients, enabling hospitals to optimize resource allocation.</li>
+        <li>Contributed to the healthcare system optimization by leveraging data analysis techniques to provide accurate predictions.</li>
+      </ul>
+      <p class="mt-2 text-gray-500" *ngIf="expandedProject === 3">
+        <strong>Tech stack:</strong> Python, Pandas, NumPy, Matplotlib, Keras, TensorFlow, Jupyter Notebook
+      </p>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-box mb-6" (click)="toggleProject(4)">
+      <h3 class="text-xl font-semibold text-gray-700 border-b-2 border-gray-300 pb-2">
+        The Marshal App, Three-in-One App
+      </h3>
+      <p class="text-gray-600 mb-2">08/2022 - 12/2022</p>
+      <ul class="list-disc list-inside text-gray-600" *ngIf="expandedProject === 4">
+        <li>Developed a mobile application using Flutter SDK, implementing features to improve user productivity and organization.</li>
+        <li>The three sub-applications include daily reminders, money management, and password management.</li>
+      </ul>
+      <p class="mt-2 text-gray-500" *ngIf="expandedProject === 4">
+        <strong>Tech stack:</strong> Flutter Framework, Dart Programming Language, Android Studio
+      </p>
+    </div>
+  </div>
+</section>

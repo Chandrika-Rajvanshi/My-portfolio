@@ -1,0 +1,14 @@
+#home {
+  background-color: #4a5568; /* Fallback color for older browsers */
+}
+img {
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+img:hover {
+  transform: scale(1.1); /* Zoom in */
+}
+img {
+  object-fit: cover; /* This will ensure the image covers the entire box while cropping */
+  object-position: center; /* This centers the image */
+}
